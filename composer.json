@@ -1,0 +1,22 @@
+{
+    "name": "ct/composer-prime",
+    "description": "exemplos de pacotes com composer",
+    "type": "library",
+    "require-dev": {
+    },
+    "license": "ct",
+    "authors": [
+        {
+            "name": "ct",
+            "email": "karlinho@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Karlinhofig\\CursoSon\\": "src"
+        }
+    },
+    "require": {
+        "monolog/monolog": "^2.1"
+    }
+}
